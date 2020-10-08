@@ -17,6 +17,7 @@ namespace MySite.Controllers
         public TheoryController(TheoryContext context)
         {
             this.context = context;
+            int red = 10;
         }
 
         public IActionResult Index()
